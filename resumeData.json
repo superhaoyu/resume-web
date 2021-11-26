@@ -3,7 +3,7 @@
     "name": "Haoyu Li",
     "occupation": "Sr Software Engineer",
     "description": "As a quick learner who loves to work on challenging problems, I have a strong background in building scalable and robust enterprise SaaS software",
-    "image": "profile.jpg",
+    "image": "https://drive.google.com/uc?id=1BfIzwLy1iorwl8koycMl7tALjBw1I95F",
     "bio": "A lifelong learner with 8+ years of experience in agile software development and effective leadership skills. As a quick learner who loves to work on challenging problems, I have a strong background in building scalable and robust enterprise SaaS software",
     "email": "superhaoyu@gmail.com",
     "phone": "2899252990",
@@ -11,7 +11,7 @@
       "city": "Toronto",
       "province": "Ontario"
     },
-    "website": "null",
+    "website": "https://superhaoyu.github.io/resume-web/",
     "resumedownload": "https://www.dropbox.com/s/01522ofv2zgne7a/Haoyu_LI_RESUME_2021.pdf?dl=0",
     "social": [
       {
@@ -100,14 +100,14 @@
     "projects": [
       {
         "title": "Okta Idenity Engine",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "okta-identity-engine.png",
+        "category": "Documentation Details about Identity Engine Projects",
+        "image": "https://drive.google.com/uc?id=1bUXipziEDpqtmavWAGwsxsRwPh7t0Zjx",
         "url": "https://www.okta.com/platform/identity-engine/"
       },
       {
         "title": "Password Policies",
         "category": "Website I built for a restaurant I like in Thailand",
-        "image": "okta-password-policies.png",
+        "image": "https://drive.google.com/uc?id=1fw3E7G2xv0e4eA4Fe37T7-ULCE4S396z",
         "url": "https://help.okta.com/en/prod/Content/Topics/Security/policies/about-password-policies.htm"
       }
     ]
