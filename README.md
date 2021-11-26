@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## Build React Personal Resume with React App nad Publih to Github as static Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This assumes you already installed Node and NPM
 
-## Available Scripts
+To start, clone this project by
 
-In the project directory, you can run:
+```
+git clone https://github.com/superhaoyu/resume-web.git 
+cd resume-web
+```
 
-### `npm start`
+Then run npm install to create dependencies and node_modules
+```
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To launch this project locally, run the following
+```
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+At this moment, you should have launched a succssfuly webpage like 
 
-### `npm test`
+![alt text](preview-resume.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Back to the terminal, let’s install a package that will create a gh-pages branch on GitHub.
 
-### `npm run build`
+```
+npm install gh-pages
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After that, open the package.json file in your root directory and add this line of code at the top level.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+"homepage": "https://username.github.io/repository-name"
+```
+React uses the homepage property to determine the root URL of your app in production.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Modify the above URL to include your GitHub username and repository name. In my case, the `package.json` file now looks like this:
 
-### `npm run eject`
+```
+  "name": "resume-web",
+  "homepage": "https://superhaoyu.github.io/resume-web",
+  "version": "0.1.0",
+  "private": true,
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Still in the `package.json` file. Locate the scripts property and only add these lines of code if missing 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+"scripts": {
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+},
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Save the file. Lastly, run this command to push your file to the gh-pages:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm run deploy
+```
 
-## Learn More
+This command will create a `build` folder in the root directory. This folder will contain production-ready files that will be deployed. And once you have a success, you can visit the URL you assigned to the homepage property in the `package.json` file and see your application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Alternatively, you can go back to your GitHub repository and click on the Settings tab. Then scroll down to GitHub pages section to see the URL.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](github-page-success.png)
