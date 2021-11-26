@@ -1,0 +1,115 @@
+{
+  "main": {
+    "name": "Haoyu Li",
+    "occupation": "Sr Software Engineer",
+    "description": "As a quick learner who loves to work on challenging problems, I have a strong background in building scalable and robust enterprise SaaS software",
+    "image": "profile.jpg",
+    "bio": "A lifelong learner with 8+ years of experience in agile software development and effective leadership skills. As a quick learner who loves to work on challenging problems, I have a strong background in building scalable and robust enterprise SaaS software",
+    "email": "superhaoyu@gmail.com",
+    "phone": "2899252990",
+    "address": {
+      "city": "Toronto",
+      "province": "Ontario"
+    },
+    "website": "null",
+    "resumedownload": "https://www.dropbox.com/s/01522ofv2zgne7a/Haoyu_LI_RESUME_2021.pdf?dl=0",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/JustinPJTrudeau",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/JustinTrudeau",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/justintrudeau/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/justinpjtrudeau/?hl=en",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/superhaoyu",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Cyber security, Identity as A Service (Idaas) and DevOps",
+    "education": [
+      {
+        "school": "McMaster University",
+        "degree": "Master of Engineering - Computer & Electrical",
+        "graduated": "2018"
+      },
+      {
+        "school": "McMaster University",
+        "degree": "Bachelor of Engineering - Electircal",
+        "graduated": "2015"
+      }
+    ],
+    "work": [
+      {
+        "company": "Okta",
+        "title": "Senior Software Engineer",
+        "years": "2018 - Present",
+        "description": "Early engineer on the Identity Engine team to platformize Okta's identity solutions. Rearchitected user authentication for a more modular auth platform that enabled any identity experience for our customers."
+      },
+      {
+        "company": "Proofpoint",
+        "title": "Automation Engineer",
+        "years": "2017 - 2018",
+        "description": "Built up One-Click Continuous Integration solutions to setup staging environment and test pipeline."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "90%"
+      },
+      {
+        "name": "Spring",
+        "level": "80%"
+      },
+      {
+        "name": "MySQL",
+        "level": "90%"
+      },
+      {
+        "name": "Redis",
+        "level": "90%"
+      },
+      {
+        "name": "Docker",
+        "level": "70%"
+      },
+      {
+        "name": "Splunk",
+        "level": "60%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Okta Idenity Engine",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "okta-identity-engine.png",
+        "url": "https://www.okta.com/platform/identity-engine/"
+      },
+      {
+        "title": "Password Policies",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "okta-password-policies.png",
+        "url": "https://help.okta.com/en/prod/Content/Topics/Security/policies/about-password-policies.htm"
+      }
+    ]
+  }
+}
