@@ -1,4 +1,4 @@
-## Build React Personal Resume with React App nad Publih to Github as static Web
+## Build React Personal Resume with React App and publish to Github as static Web
 
 This assumes you already installed Node and NPM
 
